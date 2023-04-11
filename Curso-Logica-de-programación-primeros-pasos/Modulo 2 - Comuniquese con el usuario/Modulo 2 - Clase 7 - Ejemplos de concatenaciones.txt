@@ -1,0 +1,43 @@
+Analice los siguientes códigos:
+
+A)
+<meta charset="UTF-8">
+<script>
+    document.write(12 + " años");
+</script>
+
+B)
+<meta charset="UTF-8">
+<script>
+    document.write(Mi edad es + 12);
+</script>
+
+C)
+<meta charset="UTF-8">
+<script>
+    document.write("Media calculada " + 20);
+</script>
+
+D)
+<meta charset="UTF-8">
+<script>
+    document.write(10 + 20);
+</script>
+
+Podemos decir que:
+
+A) A, C y D son ejemplos de concatenación.
+
+¡Incorrecto! La opción D presenta una operación matemática (que es diferente a la concatenación de strings)
+
+B) A y C son ejemplos de concatenación.
+
+¡Correcto! Presta atención, el texto en JavaScript necesita estar entre comillas.
+
+C) Todos son ejemplos de concatenación.
+
+¡Incorrecto! En la opción B tenemos un error de sintaxis, porque el texto que queremos concatenar no está entre comillas. Por otro lado, la opción D no es una concatenación, es una operación matemática.
+
+D) A y D no son ejemplos de concatenación.
+
+Incorrecto! La opción A sí es un ejemplo de concatenación, tiene texto entre comillas concatenando con un número, recordemos que en JavaScript Texto + Numero = Texto.

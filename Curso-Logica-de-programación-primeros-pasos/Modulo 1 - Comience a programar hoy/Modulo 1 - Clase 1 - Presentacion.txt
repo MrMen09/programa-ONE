@@ -1,0 +1,22 @@
+Transcripción
+[00:00] Hola a todos. Mi nombre es Christian Velasco y sean bienvenidos a este curso de lógica de programación con JavaScript y HTML. Si estás aquí es porque quieres aprender a programar y dar tus primeros pasos en este mundo de programación y de desarrollo de software.
+
+[00:18] Nosotros usamos la programación diariamente, en forma intrínseca, muchas veces hasta sin darnos cuenta. Por ejemplo cuando abrimos una aplicación en el celular, cuando llamamos a un Uber, esa aplicación está programada con programación, porque no hay una persona atrás cuando llamamos a un Uber que esté llamando al taxista, al chofer que nos va a recoger.
+
+[00:47] Cuando accesamos a una página web y hacemos una compra online, la misma cosa, ya la página web está programada para que cuando ejecutemos una compra, nos solicite todos nuestros datos y el producto que estamos solicitando vaya a una caja de pedidos, a un sector de pedidos.
+
+[01:05] También usamos programación a un cajero automático por ejemplo. Cuando vamos a sacar dinero no hay una persona atrás que nos esté entregando el dinero, ese cajero automático tiene una computadora que está programada para que nos pueda atender en forma automática en este caso.
+
+[01:24] Bueno, como podemos ver, la programación hace parte de nuestro día a día en este mundo digital. Para querer aprender a programar, el paso inicial es la lógica de programación, independientemente de cuál código, en cuál herramienta, es aprender la lógica de programación que aplica prácticamente para cualquier código y cualquier escenario.
+
+[01:51] Y bueno, lógicamente también necesitamos usar alguna herramienta que lea nuestro código. Nuestro browser, nuestro navegador es un claro ejemplo de ser un lector de código, aunque no lo parezca.
+
+[02:10] Por ejemplo si entramos a cualquier página, voy a entrar aquí a amazon.com, y aprieto "Ctrl + U", aquí yo voy a ver todo el código de Amazon, un código HTML donde algún programador de Amazon tuvo que programar esta página web para que nosotros veamos todo esto de aquí, todas las ofertas y productos de la página de Amazon.
+
+[02:42] Entonces en nuestro caso vamos a usar, podemos y tenemos varios browsers, varios navegadores, Internet Explorer, Google Chrome, tenemos Firefox. En este caso vamos a usar Google Chrome. Ustedes sientan la libertad de escoger cualquiera, pero si desean seguir la línea con el instructor, en este caso conmigo, pueden decidir por Google Chrome, que es el más popular también.
+
+[03:10] Aparte del navegador, que va a ser nuestro lector de código, necesitamos de editores de texto. El mismo, en el propio Windows, si son usuarios de Windows, van a tener Notepad, aquí por ejemplo, entonces pueden tener el Notepad, donde puedo editar texto. Pero este editor de texto particularmente no me gusta, no tiene muchas funcionalidades.
+
+[03:47] Y podemos usar otros como el Notepad++ que lo podemos descargar en forma gratuita, aquí en Downloads, dependiendo el sistema operativo que ustedes tengan, y otro que es bastante usado es Sublime editor de texto. En nuestro curso vamos a usar este, Sublime editor de texto, así que pueden descargarlo también en forma gratuita, dependiendo qué usuarios sean, si son usuarios de Mac o son usuarios de Windows, y dependiendo del sistema operativo, también hay para Linux.
+
+[04:26] Entonces, con nuestros lectores de código, que va a ser el browser definido, que va a ser Google Chrome, y con nuestro editor de texto, ya podemos pasar al siguiente curso e iniciar este camino de lógica de programación.

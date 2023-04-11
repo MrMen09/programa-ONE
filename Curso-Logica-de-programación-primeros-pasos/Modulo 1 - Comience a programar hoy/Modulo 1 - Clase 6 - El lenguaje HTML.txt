@@ -1,0 +1,27 @@
+Todo navegador (o browser, en inglés) logra leer y entender HTML que es el lenguaje utilizado para la presentación de datos e informaciones.
+
+Sobre HTML podemos decir:
+
+A) Su sigla significa Hyper Text Markup Language, o sea es un lenguaje de marcación de texto caracterizada por el uso de TAGs (etiquetas).
+
+B) Las TAGs (etiquetas) indican instrucciones especiales para ser ejecutadas por el navegador.
+
+C) La etiqueta <h1> es usada para crear links para que el usuario sea llevado de una página para otra.
+
+Seleccione una alternativa
+
+A.Todas son verdaderas.
+¡Incorrecto! La etiqueta <h1> no es usada para crear links.
+
+B. C es falsa.
+La etiqueta <h1> es usada para exhibir el primer título de una página. Veamos un ejemplo:
+<h1>Bienvenido</h1>
+El contenido de la TAG h1 "Bienvenido" será exhibido en destaque en la página. Vea que el texto está entre la etiqueta de apertura <h1> y la de cierre </h1>, por eso podemos decir que "Bienvenido" es el contenido de la etiqueta <h1>.
+
+Para crear links usamos la etiqueta <a> (ancora). Esa etiqueta funciona de la siguiente manera:
+Visite <a href="http://www.aluracursos.com"> Alura Latam</a>
+La etiqueta posee como contenido la página de Alura Latam, y el contenido puede ser encontrado haciendo clic para que el navegador cargue la página informada en el atributo href de la etiqueta.
+
+
+C. A y B son falsas.
+¡Incorrecto! HTML realmente significa Hyper Text Markup Language y las etiquetas son usadas para indicar instrucciones especiales para que sean interpretadas y ejecutadas por el navegador.

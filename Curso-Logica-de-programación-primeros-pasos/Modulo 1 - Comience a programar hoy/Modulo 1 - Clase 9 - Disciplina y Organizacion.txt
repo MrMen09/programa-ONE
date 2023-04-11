@@ -1,0 +1,3 @@
+Cuando comenzamos a programar, es común tener una explosión de archivos y cada archivo es equivalente a un programa. Si guardamos cada archivo directamente en el escritorio, tendremos todos ellos esparcidos y mal organizados. ¿Deseas perder ese código tan especial que creaste porque eliminaste un archivo por error?
+
+Es por eso que una de las primeras actividades del curso fue crear la carpeta "lógica", la cual servirá para almacenar todos los archivos que se crean durante el entrenamiento. La programación necesita disciplina y organización.

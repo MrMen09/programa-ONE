@@ -1,0 +1,31 @@
+Tenemos el siguiente código creado por Jhonatan:
+
+<meta charset="UTF-8">
+<script>
+    var EDAD1 = 10;
+    var EDAD2 = "20";
+    var EDAD3 = 12;
+    document.write("La media de las edades es <br>");
+    document.write( (EDAD1 + EDAD2 + EDAD3) / 3);
+</script>
+
+Tenemos las siguientes afirmaciones sobre el código:
+
+A) Al ejecutar el programa el resultado de la media de las edades será 14.
+
+B) Las variables fueron declaradas con letras mayúsculas, en JavaScript eso causa un error.
+
+C) El valor de la variable EDAD2 nos causará problemas en el cálculo de la media de las edades.
+
+Seleccione una alternativa 
+A) C es falsa
+En realidad, la opción C es verdadera, pues la variable EDAD2 nos causará problemas en el cálculo de la media de las edades.
+
+B) A y B son falsas
+¡Correcto! De la forma como fueron declaradas las variables el resultado será: "La media de las edades es 34004".
+
+El principal problema de esta historia es la declaración errada de la variable EDAD2, la cual fue declarada como string.
+
+C) Todas son falsas
+¡Incorrecto! La opción C es verdadera. El valor de la variable EDAD2 está siendo pasado como texto al colocar comillas y eso nos causará problemas al momento de realizar el cálculo.
+

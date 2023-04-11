@@ -1,0 +1,257 @@
+/* Fuentes y colores */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para la navegación */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffbd00;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  /* Titulos de sección */
+  section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor de productos */
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Producto */
+  .product {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: calc(33.33% - 20px);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen del producto */
+  .product img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Información del producto */
+  .product .info {
+    padding: 20px;
+  }
+  
+  .product h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .product a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffbd00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  
+  /* Enlaces del pie de página */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ffbd00;
+  }
+
+  .product-card {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .product-image img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .product-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffbd00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ff9d00;
+  }
+
+  .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .prev,
+  .next {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .prev {
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .next {
+    border-radius: 5px 0px 0px 5px;
+  }

@@ -1,0 +1,33 @@
+Marcela quedó inconforme porque en su prueba de "Fundamentos de programación" marcó la opción incorrecta para re-atribuir el valor de una variable. ¿Cuál sería la opción correcta en la prueba de Marcela que atribuya correctamente el valor de la variable mes?
+
+A)
+<meta charset="UTF-8">
+<script>
+    var mes = 6;
+    document.write("Realicé la prueba en el mes " + mes + ".");
+    mes = 7;
+    document.write("No, disculpe, realicé la prueba en el mes " + mes + ".");
+</script>
+
+¡Correcto! Estamos creando una variable llamada mes e inicializamos la variable con el valor 6, luego le pasamos el valor de 7.
+
+B)
+<meta charset="UTF-8">
+<script>
+    var mes = 6;
+    document.write("Realicé la prueba en el mes " + mes + ".");
+    document.write("No, disculpe, realicé la prueba en el mes " + mes + ".");
+</script>
+
+¡Incorrecto! Solo creamos la variable e inicializamos con el valor 6, sin embargo, no pasamos ningún valor nuevamente.
+
+C)
+<meta charset="UTF-8">
+<script>
+    var mes = 6;
+    document.write("Realicé la prueba en el mes " + mes + ".");
+    var mes = 7;
+    document.write("No, disculpe, realicé la prueba en el mes " + mes + ".");
+</script>
+
+¡Incorrecto! A pesar de que funciona correctamente y el código no presentaría error de sintaxis. Estamos declarando la variable mes dos veces, lo correcto es declarar solo en la primera vez, y luego usar la misma variable para atribuir diferentes valores.

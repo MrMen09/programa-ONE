@@ -1,0 +1,24 @@
+¿Cuál de las siguientes opciones exhibe en la pantalla el número 182?
+
+A)
+<meta charset="UTF-8">
+<script>
+    document.write("18 + 2");
+</script>
+¡Incorrecto! En este código, será exhibido en pantalla el texto “18 + 2” debido a que toda la expresión está entre comillas y JavaScript la va a interpretar como un único texto.
+
+B)
+<meta charset="UTF-8">
+<script>
+    document.write("18" + "2");
+</script>
+
+Si observas, estamos usando el operador de suma envolviendo dos textos (dos strings). En este caso, JavaScript irá a concatenar, o sea, juntar el texto antes del + con el texto que viene después. Por eso el resultado final es “182” que será pasado para document.write como parámetro. Es bueno recordar que JavaScript primero evalúa la operación (suma) antes de pasar para los () de la instrucción.
+
+C)
+<meta charset="UTF-8">
+<script>
+    document.write(18 + 2);
+</script>
+
+¡Incorrecto! Como estamos pasando números enteros, el resultado de esta operación será 20.

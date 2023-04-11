@@ -1,0 +1,22 @@
+En el pasado era preciso instalar los más diversos programas, muchos de ellos pagados, para que fuera posible dar los primeros pasos en el mundo de programación. Eso acababa espantando a los candidatos de programación. La buena noticia es que las cosas cambiaron en los últimos años.
+
+Tenemos las siguientes afirmaciones sobre el párrafo anterior:
+
+A) Los sistemas operacionales populares del mercado (Windows, Linux, Mac) ya vienen con un navegador web padrón y todo navegador es capaz de interpretar un código escrito por nosotros.
+
+B) Uno de los lenguajes que el navegador comprende es HTML.
+
+C) Un navegador es un políglota.
+
+¿Cuál de las opciones de abajo es verdadera respecto a las afirmaciones anteriores?
+
+A.Todas son verdaderas.
+
+Por increíble que parezca, la misma herramienta que usas para navegar en la web será la misma que utilizaremos para interpretar el código que escribiremos. Además, su navegador es capaz de entender más de un lenguaje, por eso lo llamamos políglota. Y como todo sistema operacional ya viene con un navegador padrón instalado, eso tornará más fácil nuestra jornada en el mundo de programación. Sin embargo, para que tú tengas una paridad visual conmigo a lo largo del entrenamiento, sugiero fuertemente que uses Google Chrome.
+
+
+B.La afirmación C es falsa.
+¡Incorrecto! Como vimos anteriormente, nuestro navegador consigue entender más de un tipo de lenguaje. Por ejemplo: HTML y JavaScript.
+
+C.La afirmación B es falsa.
+¡Incorrecto! Uno de los lenguajes que nuestro navegador comprende es HTML.

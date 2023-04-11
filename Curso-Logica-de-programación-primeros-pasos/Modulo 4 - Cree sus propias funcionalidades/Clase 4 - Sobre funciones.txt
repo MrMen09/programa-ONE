@@ -1,0 +1,22 @@
+Lea las siguientes afirmaciones sobre las funciones:
+
+A) Necesitan ser declaradas usando la palabra especial function.
+
+B) El uso de los paréntesis () en la declaración de una función es opcional.
+
+C) Toda las funciones tienen un bloque, que se caracteriza por el uso de { y }.
+
+D) Una o más instrucciones pueden quedar dentro del bloque de una función.
+
+Podemos decir que:
+
+Seleccione una alternativa
+
+A) B Y D son falsas
+¡Incorrecto! El uso de paréntesis es obligatorio y una o más instrucciones pueden estar dentro de un bloque.
+
+B) Solo B es falsa
+¡Correcto! El uso de paréntesis es obligatorio y no opcional.
+
+C) C y D son falsas
+¡Incorrecto! Cada función tiene un bloque caracterizado por el uso de { y }, y una o más instrucciones pueden estar dentro de un bloque.

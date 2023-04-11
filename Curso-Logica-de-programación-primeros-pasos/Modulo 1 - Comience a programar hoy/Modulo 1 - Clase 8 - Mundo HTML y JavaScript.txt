@@ -1,0 +1,21 @@
+Cuando escribimos un código en JavaScript, el primer paso es dar una pista al navegador para que entienda que el trecho de código a ser leído se trata de JavaScript. Eso lo hacemos a través de:
+
+Seleccione una alternativa
+
+A. De la etiqueta <javascript>
+¡Incorrecto! Esa etiqueta no existe en HTML.
+
+B. De la etiqueta <a>
+¡Incorrecto! La etiqueta <a> es usada para crear vínculos.
+
+C. De la etiqueta <script>
+Todo código escrito en JavaScript debe estar dentro de la etiqueta <script>. Veamos un ejemplo que exhibe un alert en la pantalla:
+<meta charset="UTF-8">
+<h1>Usando JavaScript por primera vez</h1>
+<script>
+    alert("Este es un pop-up en JavaScript");
+</script>
+
+Esto está fuera de JavaScript...
+
+Piensa que todo lo que está entre <script>…</script>, está en el mundo JavaScript. Siendo así, el navegador interpretará ese trecho como JavaScript. Todo aquello que está escrito fuera de <script>…</script>, es considerado mundo HTML y será interpretado como HTML.
