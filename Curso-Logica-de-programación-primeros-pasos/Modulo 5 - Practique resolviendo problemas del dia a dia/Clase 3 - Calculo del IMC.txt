@@ -1,0 +1,25 @@
+El índice de masa corporal (IMC) se calcula dividiendo el peso de una persona por su altura al cuadrado: IMC = peso / (altura * altura) ¿Cuál de las opciones tiene el cálculo del IMC formulado correctamente?
+
+Seleccione una alternativa
+
+A)
+var peso = 75;
+var imc = peso / ( altura * altura );
+
+¡Incorrecto! Falta la declaración de la variable altura con su respectiva atribución de valor.
+
+
+B) 
+var peso = 75;
+var altura = 1.71;
+var imc = peso / ( altura * altura ); 
+
+¡Correcto! El uso de los paréntesis asegura que el cálculo de la altura por altura sea procesado primero, para luego dividir el peso por el resultado de (altura*altura).
+
+
+C)
+var peso = 75;
+var altura = 1.71;
+var imc = peso /  altura * altura;
+
+¡Incorrecto! De esta forma se procesará primero la división del peso por la altura y el resultado de la división será multiplicado por la altura.

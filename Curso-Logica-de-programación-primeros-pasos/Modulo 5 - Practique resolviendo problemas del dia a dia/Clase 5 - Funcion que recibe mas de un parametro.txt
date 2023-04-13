@@ -1,0 +1,72 @@
+Elena tuvo la idea de crear una función sumarDosNumeros. Esta función necesita recibir dos parámetros e imprimir como resultado la suma de esos dos números ¿Cuál de las opciones declara y llama de forma correcta esta función?
+
+Seleccione una alternativa
+
+A)
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function sumarDosNumeros(numero1, numero2) {
+        imprimir("La suma de los dos números es : " + (numero1 + numero2) );
+    }
+
+    sumarDosNumeros(10, 40);
+</script>
+
+¡Correcto! Lo importante aquí es entender que si la función está preparada para recibir dos parámetros, entonces cuando sea llamada necesitamos pasar los dos parámetros. Es claro, como ya vimos, en la declaración de la función, podemos escoger cualquier nombre para los parámetros, pero necesitamos usar esos nombres en los bloques de la función.
+
+B)
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function sumarDosNumeros() {
+        imprimir("La suma de los dos números es : " + (numero1 + numero2) );
+    }
+
+    sumarDosNumeros(10, 40);
+</script>
+
+¡Incorrecto! No estamos recibiendo las variables numero1 y numero2 como parámetros
+
+C)
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function sumarDosNumeros(n1, n2) {
+        imprimir("La suma de los dos números es : " + (numero1 + numero2) );
+    }
+
+    sumarDosNumeros(10, 40);
+</script>
+
+¡Incorrecto! Los nombres de los parámetros son diferentes de la variable usada en la función sumarDosNumeros.

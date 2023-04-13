@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea(){
+        document.write("<br><br><br>")
+    }
+
+    function imprimir(mensaje) {
+        document.write(mensaje)
+    }
+
+    var anho = 2023
+
+    imprimir("Jimena tiene " + (anho-2010) + " años")
+    saltarLinea()
+    imprimir("Paola tiene " + (anho-1995) + " años")
+    saltarLinea()
+    imprimir("Laura tiene " + (anho-2005) + " años")
+    saltarLinea()
+
+    var edadPaola = anho - 1995
+    var edadJimena = anho - 2010
+    var edadLaura = anho - 2005
+    var promedio = (edadJimena+edadLaura+edadPaola)/3
+    imprimir("El promedio de las edades de las 3 mujeres es: " + Math.round(promedio))
+    
+    saltarLinea()
+
+    
+</script>

@@ -1,0 +1,74 @@
+Juana tiene la costumbre de colocar siempre tres asteriscos antes y después de los mensajes de advertencia. Veamos un ejemplo de su código:
+
+<meta charset="UTF-8">
+<script>
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+    alert("***Total de edades es " + totalEdades + "***");
+    alert("***La media de las edades es " +  promedioEdades + "***");
+</script>
+
+¿Cuál de las siguientes opciones crea correctamente la función mostrarAlerta, que toma como parámetro el texto que queremos mostrar en la alerta y que se concatena con los tres asteriscos?
+
+Seleccione una alternativa
+
+A)
+<meta charset="UTF-8">
+<script>
+    function mostrarAlerta(mensaje) {
+        alert("***" + mensaje + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+</script>
+
+¡Correcto! En la función mostrarAlerta estamos recibiendo como parámetro los mensajes y dentro de la función estamos pasando este parámetro para pasar el alert.
+
+
+B)
+<meta charset="UTF-8">
+<script>
+    function mostrarAlerta() {
+        alert("***" + mensajes + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+</script>
+
+¡Incorrecto! La función mostrarAlerta no está recibiendo ningún parámetro.
+
+C)
+<meta charset="UTF-8">
+<script>
+    function mostrarAlerta(mensaje) {
+        alert("***" + msg + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+</script>
+
+¡Incorrecto! En la función mostrarAlerta estamos recibiendo como parámetros mensajes (que no son utilizados para nada) y dentro de la función estamos usando una variable msg que no fue declarada.
