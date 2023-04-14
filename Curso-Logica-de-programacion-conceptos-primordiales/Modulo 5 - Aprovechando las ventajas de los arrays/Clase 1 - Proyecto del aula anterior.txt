@@ -1,0 +1,5 @@
+¿Comenzando esta etapa? Aquí puedes descargar los archivos del proyecto que hemos realizado anteriormente en el aula.
+
+Descarga los archivos en Github o haz clic aquí para descargarlos directamente.
+
+https://github.com/alura-cursos/logica_programacion_parte2/archive/aula4.zip

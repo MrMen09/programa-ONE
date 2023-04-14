@@ -1,0 +1,25 @@
+A lo largo del curso, aprendimos a tratar con diferentes tipos de datos, como texto, número y booleano (por ejemplo, true o false). Ejemplos de estos tipos son:
+
+var nombre = "Regina"; // texto, o técnicamente hablando, un string
+var edad = 22; // número
+var tieneLicencia = true; // booleano
+
+Finalmente, aprendimos sobre el tipo de datos llamado array. Permite que una variable tenga múltiples valores.
+
+¿Cuál de las siguientes opciones declara correctamente un array?
+
+Seleccione una alternativa
+
+A)
+var edades = 10,12,20,30;
+¡Incorrecto! La declaración array se realiza entre corchetes [ ].
+
+B)
+var cosas = ["Gisele", 12, true];
+¡Correcto! Cada array se declara entre corchetes, el famoso [ ]. Sin embargo, si tenemos una declaración como esta var cosas = [ ], tenemos un array, es decir, una lista vacía sin ningún elemento. Podemos, al declarar un array, agregar elementos. Estos elementos pueden ser de cualquier tipo de dato conocido: var cosas = ["Gisele", 12, true];
+
+El primer elemento de nuestro array es un string, el segundo un número y el último un booleano.
+
+C)
+var nombres = {"Helena", "Sulivan", "Saladino"};
+¡Incorrecto! La declaración array se realiza con corchetes [ ] en lugar de llaves { }.

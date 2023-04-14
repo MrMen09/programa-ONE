@@ -1,0 +1,21 @@
+En la prueba de estructura de datos, Felipe tenía la siguiente lista:
+
+var heroes = ["Superman", "Thor", "Batman", "Mujer Maravilla"];
+
+El ejercicio pidió que mostrara un alert para cada ítem de la lista y lo implementó de la siguiente manera:
+
+for( var i = 1; i < heroes.length; i++) {
+    alert(heroes[i]);
+}
+
+A pesar de creer que su código es correcto, obtuvo un 7/10 porque cometió un error. Su maestro dijo que mostraba todos los nombres excepto "Superman".
+
+¿Cuál es el problema con el código de Felipe? ¿Cómo puede cambiarlo para que muestre todos los nombres en la lista sin omitir ninguno?
+
+El error esta en el For, al inicializar la variable i, esta inicia en 1, pero deberia iniciar en 0
+
+Correccion: 
+var heroes = ["Superman", "Thor", "Batman", "Mujer Maravilla"];
+for( var i = 0; i < heroes.length; i++) {
+    alert(heroes[i]);
+}

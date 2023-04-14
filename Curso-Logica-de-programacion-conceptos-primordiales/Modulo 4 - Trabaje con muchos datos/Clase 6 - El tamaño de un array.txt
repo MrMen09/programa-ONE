@@ -1,0 +1,15 @@
+Tenemos el siguiente array:
+var codigos  = ["IDNOCLIP" , "IDDQD", "IDKFA"];
+
+Aprendimos que podemos conocer el tamaño del array a través de:
+
+Seleccione una alternativa
+
+A) codigos.lenhgt
+¡Incorrecto! Casi, están invertidas las dos últimas letras.
+
+B)codigos.length
+¡Correcto! Ten mucho cuidado de no escribir codigos.lenhgt, de lo contrario tendrás problemas, ya que el resultado será undefined.
+
+C)codigos.size
+¡Incorrecto! size no es un atributo del array.

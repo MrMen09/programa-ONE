@@ -1,0 +1,2 @@
+Ingresar valores manualmente en los arrays con la función push.
+Resolver problemas más complejos usando varios conceptos de programación juntos en un mismo programa (Loops, arrays, condiciones, funciones y fórmulas matemáticas).

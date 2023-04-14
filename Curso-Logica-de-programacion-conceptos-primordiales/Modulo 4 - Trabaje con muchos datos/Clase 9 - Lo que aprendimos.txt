@@ -1,0 +1,3 @@
+Concepto y dinámica de los arrays.
+Usar iteraciones para cargar arrays.
+Descubrir el tamaño de los arrays.

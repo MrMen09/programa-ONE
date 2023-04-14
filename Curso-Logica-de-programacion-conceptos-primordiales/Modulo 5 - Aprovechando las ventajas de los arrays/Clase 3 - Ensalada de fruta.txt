@@ -1,0 +1,16 @@
+Tenemos la siguiente lista de frutas:
+
+var frutas = ["piña", "banana", "melón"];
+
+Si queremos agregar un elemento más al array de frutas, ¿qué debemos hacer?
+
+Seleccione una alternativa
+
+A)frutas.push["aguacate"];
+¡Incorrecto! Recuerda que en las funciones siempre usamos paréntesis y no corchetes.
+
+B)frutas = "aguacate";
+¡Incorrecto! Al hacer esto, estamos re-asignando el valor de la variable fruta con el string aguacate.
+
+C)frutas.push("aguacate");
+¡Correcto! Todo array tiene una función push que le permite "insertar" elementos en la lista.
