@@ -1,0 +1,133 @@
+Daniel siempre fue muy exagerado. En su versión particular del juego de adivinanzas, cuando el usuario falla el intento de acertar, se muestran diez advertencias de que ha cometido un error en la pantalla.
+
+Aquí está el código de Daniel:
+
+<meta charset="UTF-8">
+<script>
+
+    function saltarLinea() {
+
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+
+        document.write(frase);
+        saltarLinea();
+    }
+
+    function sortearNumero() {
+
+        return Math.round(Math.random() * 100);
+    }   
+
+    var numeroPensado = sortearNumero();
+
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10: "));
+
+    if(numeroLanzado  == numeroPensado) {
+
+        imprimir("Uau! Vos acertaste, pues yo pensé en el número " + numeroPensado);
+    } else {
+
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+        imprimir("¡Se acabó, vos erraste!");
+    }
+</script>
+
+Ten en cuenta que las diez instrucciones que se muestran son las mismas.
+
+Ayuda a Daniel marcando la opción que contiene otra forma más eficiente de mostrar el mensaje ("¡Se acabó, vos erraste!") ¡10 veces! De esa manera, si quiere alterar el mensaje tendrá que cambiar el texto en un solo lugar.
+
+Seleccione una alternativa
+
+A)
+<meta charset="UTF-8">
+<script>
+
+    // funciones omitidas saltarLinea, imprimir, sortearNumero
+
+    var numeroPensado = sortearNumero();
+
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10: "));
+
+    if(numeroLanzado  == numeroPensado) {
+
+        imprimir("Uau! Vos acertaste, pues yo pensé en el número " + numeroPensado);
+    } else {
+        var contador = 1;
+
+        while(contador < 10) {
+
+               imprimir("¡Se acabó, vos erraste!");
+               contador = contador +1;
+        }
+    }
+</script>
+
+¡Incorrecto! El programa va a funcionar en forma correcta solo que va a imprimir 9 mensajes y no 10, pues estamos iniciando el contador en 1 y nuestro while está configurando para ir hasta 9, ya que hemos colocamos el operador < y no <=.
+
+B)
+<meta charset="UTF-8">
+<script>
+
+    // funciones omitidas saltarLinea, imprimir, sortearNumero
+
+    var numeroPensado = sortearNumero();
+
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10: "));
+
+    if(numeroLanzado  == numeroPensado) {
+
+        imprimir("Uau! Vos acertaste, pues yo pensé en el número " + numeroPensado);
+    } else {
+        var contador = 1;
+
+        while(contador <= 10) {
+
+               imprimir("¡Se acabó, vos erraste!");
+               contador = contador +1;
+        }
+    }
+</script>
+
+¡Correcto! Recuerda que el while repetirá TODAS las instrucciones que estén dentro de su bloque { } cuando la condición pasada sea true. Observa que el while recibe en sus paréntesis () la expresión contador <= 10.
+
+Cuando el navegador interpreta la línea del while preguntará: ¿El valor de la variable contador es menor que o igual a 10? Como variable contador recibe el valor 1 en su inicialización el resultado de la expresión contador <= 10 será true. Siendo así, el while estará autorizado para ejecutar la instrucción dentro de su bloque, en ese caso, la instrucción imprimir("¡Se acabó, vos erraste!"); y la instrucción contador = contador + 1.
+
+¿Tiene sentido que él ejecute imprimir("¡Se acabó, vos erraste!")? Por supuesto, pero ¿recuerdas la razón por la que hacemos contador = contador + 1? Ten en cuenta que esta variable existe solo para un propósito: es la que romperá la sección de repetición while. Con cada repetición de la instrucción imprimir, necesitamos aumentarlo para saber que ya lo hemos ejecutado, una, dos, tres veces, etc.
+
+Si no tenemos la instrucción contador = contador + 1, la condición pasada al while dará siempre true y caeremos en una repetición infinita, el famoso loop infinito y muy probable que nuestro navegador se cuelgue.
+
+C)
+<meta charset="UTF-8">
+<script>
+
+    // funciones omitidas saltarLinea, imprimir, sortearNumero
+
+    var numeroPensado = sortearNumero();
+
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10: "));
+
+    if(numeroLanzado  == numeroPensado) {
+
+        imprimir("Uau! Vos acertaste, pues yo pensé en el número " + numeroPensado);
+    } else {
+        var contador = 1;
+
+        while(contador <= 10) {
+
+               imprimir("¡Se acabó, vos erraste!");
+        }
+    }
+</script>
+
+¡Incorrecto! El programa no tiene la instrucción para incrementar la variable del contador después de mostrar el mensaje. Si ejecutamos este programa entrará a un túnel sin salida, Loop Infinito.

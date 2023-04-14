@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+
+<h1>Juego de adivinacion</h1>
+
+<script>
+    var numero = Math.round(Math.random()*10) 
+
+    var numeroUsuario = parseInt(prompt("Digite un numero entre 0 y 10"))
+
+    if(numero == numeroUsuario){
+        document.write("Felicidades, Acerto")
+    }
+    else{
+        document.write("Fallaste, el numero era: " + numero)
+    }
+</script>

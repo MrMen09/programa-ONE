@@ -1,0 +1,46 @@
+No sé si notaste, pero en la última función desarrollada Juego_Adivinación.html hay un pequeño error en el texto del alert.
+
+En vez de mostrar los intentos, debería mostrar la variable contador para visualizar la cantidad de veces que el usuario intentó para acertar el número.
+
+Por lo tanto, nuestra función final debería quedar así:
+
+<h1>PROGRAMA JUEGO DE ADIVINACION </h1>
+<script>
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+    var numeroPensado = Math.round(Math.random()*10);
+    var intentos = 3;
+    var contador = 1;
+
+    while (contador <= intentos) {
+        var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10"));
+        if (numeroPensado == numeroLanzado){
+            //corregir aquí
+            alert("usted acertó, en el intento " + contador + " el número pensado era " + numeroPensado);
+            break;
+        }
+        else {
+            alert("usted erró");
+        }
+        contador++;
+    }
+    if (numeroPensado == numeroLanzado){
+        //corregir aquí
+        imprimir("usted acertó, en el intento " + contador + " el número pensado era " + numeroPensado);
+    }
+    else {
+        imprimir("usted erró, el número pensado era " + numeroPensado);
+    }
+    imprimir("fin");
+</script>
+
+Solo corregir ese trecho de tu código y puedes continuar con el curso :)
+
+Coreccion:

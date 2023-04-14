@@ -1,0 +1,9 @@
+Contenido 
+-Condicionales
+-Iteraciones
+-Interacción con el usuario
+    -Conectando HTML con JavaScript
+    -Botones y cajas de texto
+-Arrays o Listas
+Chrome será nuestro compilador
+Sublime nuestro editor de texto

@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+    // var edadPadre = 42
+    // var edadMadre = 38
+    // var edadHijo = 15
+    // var edadHija = 12
+
+    // var totalEdad = edadPadre + edadMadre + edadHija + edadHijo
+    // var media = totalEdad/4
+
+    // document.write("La media de edades es: " + media)
+
+    var numeroMiembros = parseInt(prompt("Digite el numero de integrantes de su familia"))
+    var contador = 1
+    var totalEdades = 0
+
+    while(contador <= numeroMiembros ){
+        var edad = parseInt(prompt("Digite la edad del familiar"))
+        totalEdades = totalEdades  + edad
+        contador++
+    }
+
+    var media = totalEdades/numeroMiembros
+
+    document.write("La media de edad es de: " + media)
+
+    
+</script>

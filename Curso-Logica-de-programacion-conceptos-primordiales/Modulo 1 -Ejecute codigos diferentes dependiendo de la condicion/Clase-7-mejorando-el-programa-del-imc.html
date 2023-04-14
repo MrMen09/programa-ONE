@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h1>CALCULO IMC MEJORADO</h1>
+
+<script>
+    function calcularImc(altura, peso){
+        return(peso/(altura*altura))
+    }
+
+    var altura = parseFloat(prompt("Digite su altura: "))
+    var peso = parseFloat(prompt("Digite su peso: "))
+    var imc = calcularImc(altura,peso)
+
+    if(imc < 18.5){
+        document.write("Esta por debajo de lo recomendado")
+    }
+    else if(imc >= 18.5 && imc<24.5){
+        document.write("Esta en un rango normal")
+    }
+    else if(imc >= 24.5 && imc < 30){
+        document.write("Tiene sobrepeso")
+    }
+    else{
+        document.write("tiene obesidad")
+    }
+</script>

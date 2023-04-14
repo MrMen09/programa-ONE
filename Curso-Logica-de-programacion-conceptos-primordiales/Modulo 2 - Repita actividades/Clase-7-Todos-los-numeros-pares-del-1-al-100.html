@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+
+<h1>Numeros Pares entre 1 y 100</h1>
+<p>¿Listo para un ejercicio que te hará romper un poco la cabeza? Usando la instrucción while, imprime todos los números pares del 1 al 100 y al final imprime la palabra "FIN".</p>
+<script>
+    var contador = 1;
+    while(contador <= 100)
+    {
+        if(contador/2 == Math.trunc(contador/2))
+        {
+            document.write(contador + " es par <br>")
+        }
+        contador++
+    }
+
+    document.write("FIN")
+</script>

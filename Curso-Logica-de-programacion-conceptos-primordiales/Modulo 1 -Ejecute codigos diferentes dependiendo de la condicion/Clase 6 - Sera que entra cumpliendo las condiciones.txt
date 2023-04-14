@@ -1,0 +1,39 @@
+Tenemos la declaración de la siguiente variable:
+
+var numero = 10;
+
+Ahora, tenemos las siguientes condiciones:
+
+A)
+if(numero >= 2 && numero < 12) {
+    alert("ENTRÓ!");
+}
+
+
+B)
+
+if(numero >= 2 &&  < 12) {
+    alert("ENTRÓ!");
+}
+
+C)
+
+if(numero >= 10) {
+    alert("ENTRÓ!");
+}
+
+¿Cuál de las opciones de abajo fueron verdaderas y se mostró la alerta ENTRÓ!?
+
+Seleccione una alternativa
+
+A) A y B
+¡Incorrecto! En la letra B, hay un error de sintaxis, pues en la segunda condición la variable número no fue utilizada.
+
+B) Solo C 
+¡Incorrecto! Además de la C, existen otras alternativas que cumplen la condición.
+
+C) A y C
+¡Correcto! Ambas cumplen la condición.
+
+D) C y B
+¡Incorrecto! En la letra B, hay un error de sintaxis, pues en la segunda condición la variable número no fue utilizada.

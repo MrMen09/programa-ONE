@@ -1,0 +1,45 @@
+Tenemos el siguiente programa:
+
+<meta charset="UTF-8">
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var edad = parseInt(prompt("¿Cuál es tu edad?"));
+    var tieneLicencia = prompt("¿Tienes licencia? Responde S o N");
+
+</script>
+
+Este programa, de acuerdo con la respuesta del usuario, debe mostrar el mensaje "Puedes conducir" o "No puedes conducir". Recuerda que puede conducir solo quien tiene 18 años o más y también quien tiene una licencia de conducir.
+
+¡Altera el programa para que responda automáticamente!
+
+<meta charset="UTF-8">
+
+<script>
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var edad = parseInt(prompt("¿Cuál es tu edad?"));
+    var tieneLicencia = prompt("¿Tienes licencia? Responde S o N");
+
+    if (edad > 18 && tieneLicencia == "S"){
+        document.write("Puede conducir")
+    }
+    else{
+        document.write("No puede conducir")
+    }
+</script>

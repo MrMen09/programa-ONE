@@ -1,0 +1,94 @@
+Observa el siguiente código:
+
+<meta charset="UTF-8">
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var respuesta = ""; // todavía no hay respuesta
+
+    while(true) {
+        respuesta = prompt("¿Cuál es tu nombre?");
+    }
+
+    imprimir("FIN");
+
+</script>
+
+Ten en cuenta que while() recibe el valor fijo true. Mientras el valor entre paréntesis sea true, repetirá la declaración dentro del bloque {}.
+
+¿Cuál de las siguientes opciones tiene la versión correcta del código while(), donde en caso de que la respuesta del usuario sea "SALIR", el programa va a terminar, y por lo tanto, dejar de preguntar el nombre del usuario?
+
+Seleccione una alternativa
+
+A)
+<meta charset="UTF-8">
+
+<script>
+
+    // función saltarLinea e imprimir omitidos
+
+    var respuesta = ""; // todavía no hay respuesta
+
+    while(true) {
+        respuesta = prompt("¿Cuál es tu nombre?");
+        break;
+    }
+
+    imprimir("FIN");
+
+</script>
+
+¡Incorrecto! Después de la primera respuesta, el break forzará la salida del while. No hay ninguna condición que valide la salida del while.
+
+B)
+<meta charset="UTF-8">
+
+<script>
+
+    // función saltarLinea e imprimir omitidos
+
+    var respuesta = ""; // todavía no hay respuesta
+
+    while(true) {
+        respuesta = prompt("¿Cuál es tu nombre?");
+        if( respuesta = "SALIR") {
+            break;
+        }
+    }
+
+    imprimir("FIN");
+
+</script>
+
+¡Incorrecto! Para comparar la respuesta con el string SALIR necesitamos usar el operador == en lugar de =.
+
+C)
+<meta charset="UTF-8">
+
+<script>
+
+    // función saltarLinea e imprimir omitidos
+
+    var respuesta = ""; // todavía no hay respuesta 
+
+    while(true) {
+        respuesta = prompt("¿Cuál es tu nombre?");
+        if( respuesta == "SALIR") {
+            break;
+        }
+    }
+
+    imprimir("FIN");
+
+</script>
+
+¡Correcto! Mientras la respuesta no sea SALIR, seguirá preguntando su nombre.

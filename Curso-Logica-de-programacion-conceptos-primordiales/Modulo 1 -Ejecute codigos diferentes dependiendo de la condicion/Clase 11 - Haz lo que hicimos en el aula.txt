@@ -1,0 +1,96 @@
+¡Vamos a crear nuestro primer juego! ¡La idea es que sea un juego de adivinanzas!
+
+Primero, en el archivo Juego_Adivinacion.html, le pedimos a la computadora que "piense" en un número aleatorio usando Math.random() y multiplique este valor por 10, de modo que tengamos un número entre 0 y 10. Finalmente, redondeamos el valor para obtener un número entero usando Math.round.
+
+Tendremos el siguiente código:
+
+<meta charset="UTF-8">
+
+<h1>PROGRAMA JUEGO DE ADIVINACION </h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var numeroPensado = Math.round(Math.random()*10);
+
+</script>
+
+Luego, le pedimos al usuario que "lance" un número, tratando de adivinar lo que pensó la computadora. Y con el número proporcionado verificamos si el usuario acertó.
+
+<meta charset="UTF-8">
+
+<h1>PROGRAMA JUEGO DE ADIVINACION </h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var numeroPensado = Math.round(Math.random()*10);
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10"))
+
+    if (numeroPensado == numeroLanzado){
+        imprimir("usted acertó")
+    }
+
+</script>
+
+Se debe mostrar también un mensaje en caso de que el intento fuera incorrecto. Entonces, usamos else:
+
+<meta charset="UTF-8">
+
+<h1>PROGRAMA JUEGO DE ADIVINACION </h1>
+
+<script>
+
+    function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");    
+    }  
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var numeroPensado = Math.round(Math.random()*10);
+    var numeroLanzado = parseInt(prompt("Ingrese un número entre 0-10"))
+
+    if (numeroPensado == numeroLanzado){
+        imprimir("usted acertó")
+    }
+
+    else {
+        imprimir("usted erró, el número pensado era " + numeroPensado)    
+    }
+
+</script>
+
+Al abrir el programa en el navegador, se le pedirá al usuario que adivine el número dado por la máquina. Luego, se debe probar el número que se proporciona y se deberá mostrar si el número elegido es el mismo que la computadora pensó o no.
+
+Bueno, hasta ahora se ha proporcionado cómo proceder paso a paso, ahora hay algunos desafíos para mejorar el programa. ¡Intenta obtener las respuestas y, después de eso, compáralas con la opinión del instructor!
+
+Desafíos:
+
+1 – Crea una función de lotería que reciba un número n y sortee un número entre 0 a n, retornando ese valor. De esta forma, en vez de escribir var numeroPensado = Math.round(Math.random()*n);, escribirás var numeroPensado = sorteo(n);. Realiza esa modificación, creando una nueva función y utilízala de forma correcta.
+
+2 – Hacer que tu juego exhiba, cuando el usuario falle el intento, si el número lanzado era mayor o menor al número pensando por el programa.

@@ -1,0 +1,3 @@
+A mejorar la interacción del usuario con uso de botones.
+A mejorar la interacción del usuario con uso de cajas de texto.
+A mejorar la usabilidad de nuestro programa con focus.

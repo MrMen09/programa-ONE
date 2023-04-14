@@ -1,0 +1,5 @@
+Este capítulo les dio un gusto especial a nuestros programas. Entonces, para revisar, repite todos los pasos realizados a lo largo de los videos. Además, asegúrate de implementar el nuevo juego de adivinanzas con las nuevas características. Lo necesitaremos en el próximo capítulo.
+
+Opinión del instructor
+
+Si bien el capítulo se centra en el lenguaje JavaScript, más que en la lógica de la programación en sí, el efecto de lo que aprendemos es muy interesante para el usuario. También es interesante para los estudiantes que desean aprender más sobre JavaScript en el futuro.

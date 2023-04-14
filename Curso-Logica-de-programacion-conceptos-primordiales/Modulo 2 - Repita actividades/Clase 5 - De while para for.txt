@@ -1,0 +1,44 @@
+Claudia y Armando están casados y ambos son médicos. Sin embargo, siempre estuvieron interesados en la tecnología y se inscribieron en Alura para aprender lógica de programación.
+
+Recibieron el siguiente código como tarea:
+
+var contador = 1;
+while(contador <= 10) {
+    alert("Contador actual: " + contador);
+    contador = contador + 1;
+}
+
+Necesitan convertirlo para usar la instrucción for.
+
+¿Cuál de las siguientes opciones realiza esta conversión correctamente?
+
+Seleccione una alternativa
+
+A)
+for( var contador = 1; contador <= 10; contador = contador + 1 ) {
+    alert("Contador actual: " + contador);
+}
+
+¡Correcto! La declaración for se divide en tres partes que están separadas por un punto y coma. La primera se usa para declarar la variable que usaremos como contador, la segunda para la condición de repetición y la última para el incremento de la variable contador.
+
+De hecho, cuando queremos incrementar uno por uno, podemos usar el incremento posterior:
+
+for( var contador = 1; contador <= 10; contador++ ) {
+    alert("Contador actual: " + contador);
+}
+
+Ten en cuenta que usamos contador++ en lugar de contador=contador + 1. La primera forma es mucho más ágil.
+
+B)
+for( var contador = 1; contador = contador + 1; contador <= 10 ) {
+    alert("Contador actual: " + contador);
+}
+
+¡Incorrecto! El orden de los parámetros está errada, la parte que incrementa el contador es la última y la condición siempre va al centro.
+
+C)
+for( var contador = 1; <= 10; contador = contador + 1 ) {
+    alert("Contador actual: " + contador);
+}
+
+¡Incorrecto! El segundo parámetro de la condición está errada, no estamos definiendo cuál variable es la que usamos en la condición.

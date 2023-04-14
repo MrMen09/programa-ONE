@@ -1,0 +1,6 @@
+Ha llegado el momento de reproducir todos los pasos presentados en los videos y, por lo tanto, reforzar aún más lo que has aprendido. La idea es que al final de esta práctica tengas el mismo resultado presentado por el instructor. Esta vez, concéntrate en el juego de adivinanzas, el que le da al usuario tres intentos.
+
+Opinión del instructor
+
+La respuesta está en el código presentado en el video, te desafío a replicarlo por tu cuenta. ¡Vamos que tú puedes!
+
